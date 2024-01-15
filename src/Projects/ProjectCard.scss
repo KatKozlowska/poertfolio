@@ -1,0 +1,48 @@
+@use "../assets/variables" as *;
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 300px;
+  height:400px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 20px 20px 0px $colour-four;
+
+  &__heading {
+    height:50px;
+    margin-left:12px;
+  }
+  &__description {
+    margin-left:12px;
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.card-img {
+  border-radius: 5px;
+  max-height: 180px;
+  width: 275px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+
+  &__one, &__two{
+    padding:5px;
+    margin:3px;
+    border-radius: 5px;
+    color: $colour-one;
+    background-color: $colour-four;
+
+  }
+}

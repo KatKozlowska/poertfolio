@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+
+  &__p {
+    width: 50vw;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+  }
+
+  &__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.me {
+  height: 330px;
+  width: 220px;
+}

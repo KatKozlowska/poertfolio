@@ -1,0 +1,37 @@
+@use "../assets/variables" as *;
+
+.footer {
+    
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    height:10vh;
+    width: 100vw;
+    background-color: $colour-four;
+  
+
+    &__button {
+        margin:10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:65px;
+        width:65px;
+        border-radius: 50%;
+        background-color: $colour-one;
+    }
+    &__container {
+        padding-right:5%;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+
+    
+    &__p {
+        color: $colour-one;
+        padding-left:5%;
+    }
+}

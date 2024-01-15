@@ -1,0 +1,33 @@
+@use "../assets/variables" as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+
+  &__button {
+    margin: 10px;
+    padding:10px 15px;
+    background-color: $colour-three;
+    border: none;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $colour-four;
+        color: $colour-one;
+        transition: linear 200ms;
+    }
+    
+  }
+
+  &__heading{
+    font-size: 36px;
+    
+  }
+}
+
+
+
