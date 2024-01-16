@@ -1,8 +1,14 @@
+@use "../../assets/variables" as *;
+
 .skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+  &__heading {
+    font-family: $font-headings;
+    font-size: 30px;
+  }
   
 
   &__container {
@@ -15,6 +21,7 @@
     width: 50px;
   }
   &__description {
+    font-family: $font-body;
     margin-left: 30px;
   }
 }

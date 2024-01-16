@@ -1,3 +1,5 @@
+@use "../assets/variables" as *;
+
 .about {
   display: flex;
   flex-direction: column;
@@ -5,6 +7,12 @@
 
   &__p {
     width: 50vw;
+    font-family:$font-body ;
+  }
+
+  &__heading{
+    font-family: $font-headings;
+    font-size:30px;
   }
 
   &__img {

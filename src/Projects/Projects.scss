@@ -1,11 +1,16 @@
+@use "../assets/variables" as *;
+
 section {
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
   margin: 50px 50px;
+ 
 }
 
 .heading {
+  font-family:$font-headings;
+  font-size: 30px;
   margin:0 50px;
 }

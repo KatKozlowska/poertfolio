@@ -15,9 +15,12 @@
   &__heading {
     height:50px;
     margin-left:12px;
+    font-family:$font-headings
+
   }
   &__description {
     margin-left:12px;
+    font-family:$font-body;
   }
 }
 
